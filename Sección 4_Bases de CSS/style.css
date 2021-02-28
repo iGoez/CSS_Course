@@ -1,0 +1,51 @@
+.titulo{
+    color: darkblue;
+}
+
+.texto{
+    color: cadetblue;
+}
+
+#texto{
+    color: blueviolet;
+}
+
+[href]{
+    color: green;
+}
+
+[href = "#"]{
+    color: red;
+}
+
+[class ~= "verde"]{
+    color: green;
+}
+
+[class |= "verde"]{
+    color: cornflowerblue;
+}
+
+[class |= "rojo"]{
+    color: purple;
+}
+
+[class $= "rojo"]{
+    color: black;
+}
+
+h1+h2{
+    color: blue;
+}
+
+h1 ~ h3{
+    color: green;
+}
+
+div span{
+    color: teal;
+}
+
+p strong{
+    background-color: yellow;
+}
