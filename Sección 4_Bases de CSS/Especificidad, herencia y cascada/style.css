@@ -1,0 +1,19 @@
+#parrafo{
+    color: orange;
+}
+
+.parrafo{
+    color: blueviolet;
+}
+
+p{
+    color: red;
+}
+
+a{
+    color: inherit;
+}
+
+p{
+    color: green !important;
+}
