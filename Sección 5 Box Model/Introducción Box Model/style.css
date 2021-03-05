@@ -1,0 +1,27 @@
+h1{
+    background-color: lightblue;
+}
+
+h2{
+    background-color: blanchedalmond;
+}
+
+a{
+    background-color: aqua;
+}
+
+.box-1{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 2px solid black; /* sus dimensiones cuentan para el tamaño total */
+    margin: 20px;
+    outline: 5px solid red; /* sus dimensiones NO cuentan para el tamaño total */
+}
+
+.box-2{
+    background-color: greenyellow;
+    height: 100px;
+    width: 100px;
+}
